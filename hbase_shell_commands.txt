@@ -1,0 +1,19 @@
+# HBase shell commands for the report (run:  ~/hbase-2.6.6/bin/hbase shell)
+
+# --- Schema ---
+create 'user_sessions', {NAME => 's', VERSIONS => 1}, {NAME => 'pv', VERSIONS => 1}, {NAME => 'cart', VERSIONS => 1}
+create 'product_metrics', {NAME => 'm', VERSIONS => 1}
+list
+describe 'user_sessions'
+
+# --- Q1: last 5 sessions of a user (newest first thanks to reverse timestamp) ---
+scan 'user_sessions', {STARTROW => 'user_000004#', STOPROW => 'user_000004$', LIMIT => 5, COLUMNS => ['s:start_time','s:conversion']}
+
+# --- Q2: one full session row ---
+get 'user_sessions', '<paste a row key from Q1>'
+
+# --- Q3: product performance over a date range ---
+scan 'product_metrics', {STARTROW => 'prod_01434#20260801', STOPROW => 'prod_01434#20261101'}
+
+# --- Counting rows ---
+count 'user_sessions', INTERVAL => 10000
