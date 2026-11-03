@@ -1,0 +1,4 @@
+device_type,sessions,with_cart,converted,cart_rate_pct,conversion_rate_pct,avg_duration_s
+mobile,33443,21721,6815,64.9,20.4,1814.0
+tablet,33301,21700,6796,65.2,20.4,1812.0
+desktop,33256,21551,6801,64.8,20.5,1805.0

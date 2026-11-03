@@ -1,0 +1,25 @@
+check,value
+users: raw rows,5000
+users: rows after cleaning,5000
+users: rows removed,0
+products: raw rows,2000
+products: rows after cleaning,2000
+products: rows removed,0
+sessions: raw rows,100000
+sessions: rows after cleaning,100000
+sessions: rows removed,0
+transactions: raw rows,25000
+transactions: rows after cleaning,25000
+transactions: rows removed,0
+transaction line items (exploded),54474
+RULE: transactions where total != subtotal - discount,0
+RULE: product_detail page views missing product_id,0
+INTEGRITY: sessions whose user_id is not in users,0
+INTEGRITY: transactions whose user_id is not in users,0
+INTEGRITY: transaction items whose product_id is not in products,0
+INTEGRITY: transactions with a session_id not found in sessions,0
+INFO: transactions with no session (session_id is null),12285
+INFO: sessions marked 'converted' with no transaction,7697
+FIXED: users whose last_active was earlier than real activity,4888
+INFO: products inactive,89
+INFO: products with zero stock,98

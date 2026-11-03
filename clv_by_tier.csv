@@ -1,0 +1,5 @@
+clv_quartile,clv_tier,users,avg_hist_revenue,avg_pred_12m_revenue,avg_pred_12m_profit,total_pred_12m_profit,avg_sessions_observed,avg_session_s,avg_recency_days
+1,Platinum,1250,8907.95,35240.24,9402.8,11753503.0,6.4,1817.0,11.0
+2,Gold,1250,5871.14,23226.49,6010.02,7512528.0,6.2,1812.0,14.2
+3,Silver,1250,4193.2,16588.48,4182.63,5228282.0,5.9,1814.0,17.9
+4,Bronze,1250,2080.2,8229.35,2001.54,2501929.0,5.5,1810.0,26.2

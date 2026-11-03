@@ -1,0 +1,5 @@
+check,value
+users_in_mongo,5000
+users_with_hbase_sessions,4987
+users_with_orders,4970
+users_where_mongo_summary_differs_from_transactions,0

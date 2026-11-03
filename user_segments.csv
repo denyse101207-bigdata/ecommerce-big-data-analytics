@@ -1,0 +1,6 @@
+segment,users,avg_spent,avg_sessions,total_revenue
+0 orders (browsers),30,0.0,16.4,0.0
+1 order (one-time),160,963.03,17.9,154084.48
+2-3 orders (occasional),1105,2773.52,18.9,3064735.89
+4-6 orders (regular),2571,5194.21,20.0,13354313.22
+7+ orders (loyal),1134,8591.25,21.5,9742476.01

@@ -1,0 +1,26 @@
+units_sold,category_id,category,revenue,est_profit,margin_pct
+5053,cat_024,"Patterson, Smith and Jones",1386884.88,382057.82,27.5
+5236,cat_010,Burns-Rodriguez,1358651.03,242603.97,17.9
+4581,cat_002,James LLC,1300108.38,360780.25,27.8
+4887,cat_021,Mitchell-Kim,1225854.52,265758.12,21.7
+4712,cat_009,Skinner-Romero,1188597.91,312857.63,26.3
+5201,cat_014,"Anderson, Walls and Duncan",1167530.39,313989.32,26.9
+4504,cat_020,"Brewer, Bryant and Hickman",1162650.39,276888.16,23.8
+4574,cat_005,Cameron-Parsons,1147853.75,322870.32,28.1
+4584,cat_013,Smith Ltd,1130228.97,270102.83,23.9
+4792,cat_003,Bush Inc,1124072.27,317583.57,28.3
+4478,cat_015,Owens-Daniel,1114445.23,284163.95,25.5
+4156,cat_022,Preston Ltd,1093963.9,358686.44,32.8
+4019,cat_000,"Rodriguez, Figueroa and Sanchez",1080839.84,207763.08,19.2
+4336,cat_007,"Moore, Becker and Carlson",1080153.35,284166.57,26.3
+4429,cat_017,Hancock Inc,1075937.6,299168.99,27.8
+4549,cat_008,Rodriguez-Graham,1051089.44,376294.85,35.8
+3730,cat_011,Spence PLC,1004802.83,235069.73,23.4
+4221,cat_001,Baldwin Ltd,974795.92,205678.19,21.1
+4263,cat_004,Kelly-Santiago,965256.36,196659.47,20.4
+4085,cat_023,King-Odonnell,931275.87,247110.58,26.5
+3926,cat_012,Carney-Santos,923243.91,217282.58,23.5
+3727,cat_006,"Ellis, Baker and Wright",903768.08,187506.25,20.7
+3731,cat_019,Powell PLC,896492.05,214659.91,23.9
+3564,cat_016,Wright-Leblanc,879074.31,230208.61,26.2
+3762,cat_018,Phillips Inc,849543.75,214138.77,25.2

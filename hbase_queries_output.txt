@@ -1,0 +1,39 @@
+﻿(using user user_000000, which has loaded sessions)
+
+=== Q1: last 5 sessions of user_000000 ===
+user_000000#8206407655999 {'s:conversion': 'abandoned', 's:device_type': 'desktop', 's:duration': '2673', 's:referrer': 'direct', 's:start_time': '2026-11-02T04:05:44'}
+user_000000#8206531473999 {'s:conversion': 'abandoned', 's:device_type': 'desktop', 's:duration': '295', 's:referrer': 'affiliate', 's:start_time': '2026-10-31T17:42:06'}
+user_000000#8206705846999 {'s:conversion': 'abandoned', 's:device_type': 'desktop', 's:duration': '3192', 's:referrer': 'email', 's:start_time': '2026-10-29T17:15:53'}
+user_000000#8207511994999 {'s:conversion': 'abandoned', 's:device_type': 'mobile', 's:duration': '1934', 's:referrer': 'affiliate', 's:start_time': '2026-10-20T09:20:05'}
+user_000000#8208022591999 {'s:conversion': 'abandoned', 's:device_type': 'tablet', 's:duration': '133', 's:referrer': 'direct', 's:start_time': '2026-10-14T11:30:08'}
+
+=== Q2: sessions of user_000000 between 2026-09-01 and 2026-10-31 ===
+2026-10-31T17:42:06 abandoned
+2026-10-29T17:15:53 abandoned
+2026-10-20T09:20:05 abandoned
+2026-10-14T11:30:08 abandoned
+2026-09-10T18:16:17 abandoned
+2026-09-06T13:42:08 browsed
+2026-09-06T01:35:19 converted
+-> 7 sessions
+
+=== Q3: full journey of the most recent session of user_000000 ===
+row key: user_000000#8206407655999
+  cart:prod_01174    3|119.79
+  pv:00              search|||166|2026-11-02T04:05:44
+  pv:01              search|||127|2026-11-02T04:08:30
+  pv:02              product_detail|prod_01174|cat_021|356|2026-11-02T04:10:37
+  pv:03              product_detail|prod_01003|cat_006|305|2026-11-02T04:16:33
+  pv:04              product_detail|prod_01770|cat_009|737|2026-11-02T04:21:38
+  pv:05              home|||218|2026-11-02T04:33:55
+  pv:06              category_listing||cat_002|342|2026-11-02T04:37:33
+  pv:07              search|||422|2026-11-02T04:43:15
+  conversion: abandoned | referrer: direct
+
+=== Q4: prod_01434 daily metrics, 2026-08-01..2026-10-31 ===
+days with activity: 83 | totals: {'views': 236, 'cart_adds': 72, 'purchases': 32}
+view->cart rate: 30.5% | view->purchase rate: 13.6%
+
+=== Q5: row counts ===
+user_sessions rows   : 30000
+product_metrics rows : 151988
