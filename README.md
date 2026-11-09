@@ -51,8 +51,8 @@ HBase 2.6.6 standalone inside WSL2 (Ubuntu) with the Thrift server on port 9090.
 | 3 – Integration | `extract_mongo.py`, `extract_hbase.py` | Export the needed data from each store |
 | | `integrated_clv.py` | Spark join of MongoDB + HBase data → Customer Lifetime Value tiers |
 | 4 – Visuals | `visualize.py` | 7 charts from `results/*.csv` |
-| Output | `results/`, `figures/`, `screenshots/` | Result tables, charts, screenshots |
-| Report | `report/Technical_Report_MUTONI_DENYSE.pdf` | Technical report (7 pages) |
+| Output | `*.csv`, `*.png` | Result tables, charts and screenshots (the scripts write them to `results/` and `figures/` when run) |
+| Report | `Report-101207.pdf` | Technical report (PDF) |
 
 ## How to reproduce
 
